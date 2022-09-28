@@ -1,0 +1,49 @@
+.card {
+    width: 200px;
+    height: 250px;
+    background: rgb(250, 250, 250);
+    border-radius: 2.0em;
+    box-shadow: 0.3em 0.3em 0.7em #00000015;
+    transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: rgb(250, 250, 250) 0.2em solid;
+    float: left;
+    margin-top: 1%;
+    margin-left: 1%;
+   }
+   
+   .card:hover {
+    border: #024296 0.2em solid;
+   }
+   img {
+    width: 100%;
+    height: 100%; 
+    object-fit: contain;
+}
+   .cardimage {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 60%;
+  }
+
+  .cardname {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 5%;
+    font-size: large;
+
+  }
+  .cardtypes {
+    background-color: rgb(250, 250, 250);
+    width: 100%;
+    height: 10%;
+  }
+
+.cardtypes h2 {
+    z-index: 1;
+    color: rgb(0, 0, 0);
+  }
+  .cardname h2 {
+    z-index: 1;
+    color: rgb(0, 0, 0);
+
+  }
