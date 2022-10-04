@@ -1,0 +1,24 @@
+
+.barra { 
+    height: 20px;
+	position: relative;
+	background: #555;
+	border-radius: 25px;
+	padding: 10px;
+}
+.barra > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #22AA11;
+  position: relative;
+  overflow: hidden;
+  animation: prog 2s linear;
+}
+@keyframes prog {
+  0% {width: 0%}
+  100% {width: 100%}
+}

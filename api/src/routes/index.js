@@ -121,8 +121,7 @@ router.post("/pokemons", async (req, res) => {
       height,
       weight,
       createdInDb,
-      types,
-      likes
+      types
     } = req.body;
     
     let newPokemon = await Pokemon.create({
@@ -134,8 +133,7 @@ router.post("/pokemons", async (req, res) => {
       speed,
       height,
       weight,
-      createdInDb,
-      likes
+      createdInDb
     })
 /*
     let typesInDb = await Type.findAll({

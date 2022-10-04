@@ -1,8 +1,10 @@
 .card {
+  
     width: 200px;
     height: 250px;
-    background: rgb(250, 250, 250);
-    border-radius: 2.0em;
+
+    background: #f8f8f8;
+    border-radius: 1.4em;
     box-shadow: 0.3em 0.3em 0.7em #00000015;
     transition: border 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: rgb(250, 250, 250) 0.2em solid;
@@ -15,35 +17,78 @@
     border: #024296 0.2em solid;
    }
    img {
+    margin-top: 8%;
+
     width: 100%;
     height: 100%; 
     object-fit: contain;
 }
    .cardimage {
-    background-color: rgb(250, 250, 250);
+    background-color: #f8f8f8;
     width: 100%;
     height: 60%;
   }
 
   .cardname {
+
     background-color: rgb(250, 250, 250);
     width: 100%;
     height: 5%;
     font-size: large;
 
   }
-  .cardtypes {
-    background-color: rgb(250, 250, 250);
-    width: 100%;
-    height: 10%;
+  .cardname h2 {
+    margin-top: 8%;
+
+    z-index: 1;
+    color: rgb(31, 31, 31);
+    padding: 2px;
+
+  }
+  .btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0.5px 1px #666666;
+    -moz-box-shadow: 0px 0.5px 1px #666666;
+    box-shadow: 0px 0.5px 1px #666666;
+    font-family: Courier New;
+    color: #f8f8f8;
+    font-size: 18px;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    text-decoration: none;
+    margin-top: 10%;
+    margin-left: 2%;
+
   }
 
-.cardtypes h2 {
-    z-index: 1;
-    color: rgb(0, 0, 0);
-  }
-  .cardname h2 {
-    z-index: 1;
-    color: rgb(0, 0, 0);
+  .btnwhite {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #f8f8f8, #f8f8f8);
+    background-image: -moz-linear-gradient(top, #f8f8f8, #f8f8f8);
+    background-image: -ms-linear-gradient(top, #f8f8f8, #f8f8f8);
+    background-image: -o-linear-gradient(top, #f8f8f8, #f8f8f8);
+    background-image: linear-gradient(to bottom, #f8f8f8, #f8f8f8);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 15px;
+    -webkit-box-shadow: 0px 0.5px 1px #666666;
+    -moz-box-shadow: 0px 0.5px 1px #666666;
+    box-shadow: 0px 0.5px 1px #666666;
+    font-family: Courier New;
+    color: #1b1b1b;
+    font-size: 16px;
+    padding-left: 6%;
+    padding-right: 14%;
+    text-decoration: none;
+    margin-top: 2%;
 
   }
